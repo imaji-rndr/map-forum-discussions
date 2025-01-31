@@ -8,7 +8,7 @@ In general, there are two parts of the repo - organised into data collection and
 ## Data Collection
 This folder includes the scripts used to collect the forum post data from the online forum platforms. Here, the platforms included are Processing, Cinder, and OPENRNDR. Here are the scripts ordered by usage:
 1. **extract-topic-id**: used to extract the individual topic id(s) of the posts
-2. **extract-post-{platform}**: using the extracted topic id(s), this script collects the forum post data
+2. **extract-post-{platform}**: using the extracted topic id(s), this script collects the forum post data. Specific to OPENRNDR, this used [discourse-archive](https://github.com/jamesob/discourse-archive)
 3. **combine-posts-to-csv**: the extracted individual posts (in JSON format) are combined into a csv file
 
 ## Data Analysis
