@@ -21,3 +21,10 @@ pyLDAvis
 networkx
 scikit-learn
 tqdm
+beautifulsoup4
+torch
+huggingface-hub
+transformers
+adapters
+scipy
+astor
