@@ -1,0 +1,9 @@
+numpy
+pandas
+spacy
+scikit-learn
+seaborn
+matplotlib
+umap-learn
+hdbscan
+sentence-transformers
